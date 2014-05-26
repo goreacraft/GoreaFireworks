@@ -1,0 +1,22 @@
+name: GoreaFireworks
+author: GoreaCraft
+main: com.goreacraft.plugins.goreafireworks.Main
+version: 1.4
+website: http://www.goreacraft.com
+description: When you happy!
+commands:
+    goreafireworks:
+        aliases: [gf, gfireworks]
+        description: You happy?
+        usage: /gf ?,/gf me, /gf <player>, /gf world x y z
+permissions:
+   gorea.fireworks.*:
+     description: Gives access to all GoreaFireworks commands
+     children:
+       gorea.fireworks.me: true    
+       gorea.fireworks.others: true
+       gorea.fireworks.me.nr: true
+       gorea.fireworks.others.nr: true
+       gorea.fireworks.location: true
+       gorea.fireworks.location.nr: true
+       gorea.fireworks.reload: true  
